@@ -2,7 +2,7 @@
 export default {
   async fetch(request) {
     const allowedDomains = [
-      "https://www.fzmovies7.art",
+      "https://jiorockers.hashgen.website",
       "https://jiorockershg.blogspot.com"
     ];
 
@@ -20,7 +20,7 @@ export default {
     const query = url.searchParams.get("q") || "";
     const id = url.searchParams.get("id") || "";
 
-    const apiKey = "cb192ff121c372a06121e7173f44916c"; // your TMDB key
+    const apiKey = "3ee3ca8d3c6b15a0370751a51feda1f2"; // your TMDB key
     let tmdbURL = "https://api.themoviedb.org/3/";
 
     if(type === "search") {
