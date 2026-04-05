@@ -2,8 +2,8 @@
 export default {
   async fetch(request) {
     const allowedDomains = [
-      "https://www.jiorockers.online",
-      "https://www.jiorockers.online"
+      "https://www.moviesming.online",
+      "https://www.moviesming.online"
     ];
 
     const origin = request.headers.get("Origin") || "";
